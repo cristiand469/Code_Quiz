@@ -15,6 +15,7 @@ html{
 }
 h1{
     font-size:6em ;
+    
 }
 h1 span{
 animation: animate 2s linear infinite;
