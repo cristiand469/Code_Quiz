@@ -56,7 +56,7 @@ Array.from(answerButtonsElement.children).forEach(button => {
 if(shuffledQuestions.length > currentQuestionIndex + 1){
     nextButton.classList.remove('hide')
 }else{
-    startButton.innerText = 'Restart'
+    startButton.innerText = 'Home'
     startButton.classList.remove('hide')
 }
 
