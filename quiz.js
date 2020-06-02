@@ -54,10 +54,12 @@ Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
 })
 if(shuffledQuestions.length > currentQuestionIndex + 1){
-    nextButton.classList.remove('hide')
+    nextButton.classList.remove('hide');
 }else{
     startButton.innerText = 'Home'
     startButton.classList.remove('hide')
+    
+     
 }
 
 }

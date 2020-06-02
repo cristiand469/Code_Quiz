@@ -8,6 +8,11 @@
     --hue-wrong:0;
     --hue-correct:145;
 }
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
 body{
     display: flex;
